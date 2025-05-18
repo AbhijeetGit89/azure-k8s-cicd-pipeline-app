@@ -5,7 +5,7 @@ trigger:
 
 variables:
   azureSubscription: 'azure-aks-connection'        # Azure Resource Manager service connection
-  acrServiceConnection: 'atulkamble-acr'           # ✅ Docker Registry service connection name
+  acrServiceConnection: 'abhijeetgholap-acr'           # ✅ Docker Registry service connection name
   kubernetesCluster: 'aks-cluster'
   resourceGroup: 'aks-resource-group'
 
