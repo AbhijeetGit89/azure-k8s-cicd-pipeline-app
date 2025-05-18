@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: atulkamble.azurecr.io/backend:latest
+          image: abhijeetgholap.azurecr.io/backend:latest
           ports:
             - containerPort: 5000
       imagePullSecrets:
@@ -58,7 +58,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: atulkamble.azurecr.io/frontend:latest
+          image: abhijeetgholap.azurecr.io/frontend:latest
           ports:
             - containerPort: 3000
       imagePullSecrets:
